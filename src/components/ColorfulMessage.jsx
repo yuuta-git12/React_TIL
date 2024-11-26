@@ -1,5 +1,5 @@
 export const ColorfulMessage = (props) => {
-    // console.log(props);
+    console.log("--ColorfulMessage---");
     // 分割代入によるpropsの取り出し
     const { color, fontSize , children} = props;
     const contentStyleA = {

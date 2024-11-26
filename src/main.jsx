@@ -6,7 +6,8 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-    <StrictMode>
+    // 開発モードでStrictModeで動かす場合はレンダリングが2回行われる
+    // <StrictMode>
         <App />
-    </StrictMode>
+    // </StrictMode>
 );
